@@ -1,0 +1,25 @@
+$results[0]. UK
+$results[1]. USA
+$results[2]. Australia
+$results[3]. Canada
+$results[4]. New Zealand
+$results[5]. Japan
+$results[6]. Undergraduate
+$results[7]. Postgraduate
+$results[8]. MBA
+$results[9]. Agricultural Studies
+$results[10]. Architecture, Building and Urban Planning
+$results[11]. Computer and Mathematical Sciences
+$results[12]. Education and Training
+$results[13]. Science and Engineering
+$results[14]. Health and Medicine
+$results[15]. MBA
+$results[16]. Social Science and Communications
+$results[17]. Applied and Pure Sciences
+$results[18]. Business and Administrations
+$results[19]. Art and Design
+$results[20]. English as Foreign Language
+$results[21]. Legal Studies
+$results[22]. Arts and Humanities
+$results[23]. Travel, Tourism and Hospitality
+$results[24]. Number of respondents

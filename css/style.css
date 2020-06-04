@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+body{
+    color: #262626;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.wrapper{
+    max-width:960px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.pie-chart-container{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.pie-chart-container1{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+button{
+    border: solid 1px #FAE55D;
+    box-shadow: none;
+    background-color: #FAE55D;
+    padding:10px;
+    width:100%;
+    appearance:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline:none;
+    margin-bottom: 60px;
+    cursor:pointer;
+    display: block;
+    text-align: center;
+    color: #262626;
+   
+}
+
+.html{
+    height:100%;
+}
+
+.result-body{
+    height:100%;
+}
+
+.result-inner{
+    height:100%;
+}
+
+.result-header{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.result-text{
+    font-size: 32px;
+    text-align:center;
+    margin-bottom: 120px;
+    display:block;
+}
+
+@media screen and (max-width:768px){
+    .pie-chart-container,.pie-chart-container1{
+        max-width:375px;
+        height:auto;
+    }
+
+    #myChart1, #myChart2, #myChart3{
+        max-width:375px;
+        height:auto;
+    }
+
+    .result-header{
+        font-size: 42px;
+    }
+
+}
+
+/* ---------------------
+*   nav
+---------------------- */
+.navigation{
+    height: 80px;
+    background-color: #FAE55D;
+}
+
+.navigation{
+    /* padding-top: 20px; */
+    padding-right: 50px;
+    padding-left: 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.navigation .fas{
+    color: #262626;
+    font-size: 30px;
+    display:block;
+    top: 10px;
+    cursor: pointer;
+}
+
+.fa-home{
+    text-align:left;
+}
+
+.nav-item{
+    font-size: 18px;
+    color: #262626;
+    margin-left:60px;
+    letter-spacing:0.03em;
+}
+
+.stu-login{
+    margin-right:40px;
+    color: #732B80;
+}
+
+.univ-login{
+    color: #732B80;
+}
+
+.modal{
+    width:50%;
+}
+
+@media screen and (max-width:768px){
+    .modal h4{
+        margin-bottom: 10px;
+    }
+    .modal .modal-content{
+        padding:17px;
+    }
+    .stu-login{
+        display:block;
+        margin-bottom: 20px;
+    }
+}
+
+/* ---------------------
+*   footer
+---------------------- */
+.footer{
+    height:120px;
+    background-color:#FAE55D;
+}
+
+.footer small{
+    display:block;
+    text-align:center;
+    padding-top: 52px;
+    font-size: 14px;
+}
